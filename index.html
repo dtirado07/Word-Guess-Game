@@ -14,45 +14,45 @@
 
 <body>
     <div class="container">
-        <h1>HANGMAN</h1>
-        <h3>Food of the world</h3>
+        <h1 class="display-1 text-primary text-center">HANGMAN</h1>
+        <h3 class="display-4 text-info text-center">Food Of The World</h3>
     </div>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-4 border border-primary">
-                <img src="assets/images/worldfood.jpg" class="img-fluid rounded mt-2" alt="World Food">
+                <img src="assets/images/worldfood.jpg" id="wordImg" class="img-fluid rounded mt-2" alt="World Food">
             </div>
             <div class="col-4 border border-left-0 border-primary">
-                <p class="text-center presskey">
+                <p class="text-center presskey h3">
                     PRESS ANY KEY TO GET STARTED
                 </p>
                 <br>
-                <p class="text-center">
+                <p class="text-center h5">
                     WINS #
                 </p>
-                <p class="text-center wins">
-                    var wins
+                <p class="text-center h5 text-success" id="wins">
+                    
                 </p>
                 <br>
-                <p class="text-center">
+                <p class="text-center h5">
                     CURRENT WORD
                 </p>
-                <p class="text-center word">
+                <p class="text-center h5" id="word">
                     _ _ _ _ _
                 </p>
                 <br>
-                <p class="text-center">
+                <p class="text-center h5">
                     NUMBER OF GUESSES REMAINING
                 </p>
-                <p class="text-center guesses">
-                    var guesses
+                <p class="text-center text-danger h5" id="guesses">
+                   
                 </p>
                 <br>
-                <p class="text-center">
+                <p class="text-center h5">
                     LETTERS ALREADY GUESSED
                 </p>
-                <p class="text-center letters">
-                    Letters
+                <p class="text-center" id="letters">
+                    
                 </p>
             </div>
         </div>
